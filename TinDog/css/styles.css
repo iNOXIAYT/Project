@@ -1,0 +1,154 @@
+body{
+  font-family:'Open Sans';
+  text-align:center
+}
+p{
+  color:#8f8f8f;
+}
+.btn{
+  margin-right:15px;
+}
+
+/* title */ /* title *//* title *//* title *//* title *//* title *//* title *//* title *//* title *//* title *//* title *//* title *//* title *//* title *//* title */
+@media(max-width:1028px){
+  .title-image{
+    padding-top:10px !important;
+    position: static !important;
+    transform:rotate(0deg) !important ;
+  }
+  #title{
+    text-align:center;
+  }
+}
+#title{
+ background-color: #ff4c68;
+ color:#fff;
+ padding-left:5%;
+}
+
+.title-image{
+    padding-top: 0px;
+    position: absolute;
+    z-index: 0;
+    width: 30%;
+    transform: rotate(25deg);
+}
+.container-fluid{
+  padding: 2% 20% 30%;
+}
+.desc{
+    font-family: Poppins;
+    font-size:4rem;
+    line-height:1.3
+    color: white;
+}
+.navbar .navbar-brand{
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.nav-item{
+  padding:20px;
+}
+
+/* features *//* features *//* features *//* features *//* features *//* features *//* features *//* features *//* features *//* features *//* features *//* features *//* features *//* features *//* features */
+h3{
+  font-family:'Open Sans';
+  font-weight:bolder;
+}
+h2{
+  font-family:Poppins;
+  font-weight:bolder;
+}
+  .testimonial-text{
+    font-family:'Poppins' bold;
+    font-size:3rem !important;
+    color:white !important;
+  }
+  .testimonial-image{
+    width:20%;
+    border-radius:50%;
+    margin:20px;
+  }
+  .logos{
+  width:10%;
+  margin: 1%;
+  }
+  .carousel-item{
+    padding:7% 15%;
+  }
+  .icon{
+    color:#EF8172;
+    margin-bottom:1rem;
+  }
+  .icon:hover {
+    color:#FF4C68;
+  }
+  .feature-box{
+    text-align:center;
+    padding:5%;
+  }
+
+  #press{
+    background-color:#EF8172;
+    text-align:center;
+    padding-bottom:3%;
+  }
+  #features{
+    padding : 7% 15%;
+    background-color:white;
+    position:relative;
+    z-index:1;
+  }
+  #testimonials{
+    background-color:#EF8172;
+
+    text-align:center;
+  }
+/* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing *//* pricing */
+
+#pricing{
+padding:5%;
+font-family:Poppins;
+}
+
+.pricing-column{
+  padding :  3% 2% !important;
+}
+/* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer */
+#hr{
+margin: 5rem auto;
+color: inherit;
+border: dotted 6px hotpink;
+width: 20%;
+border-top: none;
+text-align: center;
+opacity: .25;
+}
+
+
+#cta{
+  background-color:#FF4C68;
+  text-align:center;
+  margin-top: 0;
+  padding: 7% 15%;
+}
+.footer{
+    font-size: 40px;
+    color: #E9F8F9;
+    font-family:'Open Sans';
+    padding-bottom:40px;
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  padding: 5%;
+  font-size: 1rem;
+}
+.social-icons{
+      margin: 15px 20px;
+      color:#A459D1;
+}
+.social-icons:hover{
+  color:#E3DFFD;
+}
